@@ -37,3 +37,18 @@ def run_tests():
 # Edit this code
 def multi_sum(n):
 
+    total = 0
+
+    for i in range(1, n // 7 + 1, 1):
+        total = total + i * 7
+
+    if n < 35:
+        total = total
+
+    else:
+        total = total - 35 * (n // 35)
+
+    print(total)
+  
+
+

@@ -35,3 +35,9 @@ def run_tests():
 # Edit this code
 def print_squares(a, b):
 
+    total = 0
+
+    for i in range(a, b + 1):
+        total = i * i
+        print(total)
+

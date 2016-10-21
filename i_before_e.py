@@ -39,6 +39,18 @@ def run_tests():
     doctest.testmod(verbose=True)
 
 
+    
 # Edit this code
 def spell_check(word):
 
+    if "cei" in word.lower():
+        print("Correct")
+
+    elif "cie" in word.lower():
+        print("False")
+
+    elif "ie" in word.lower():
+        print("Correct")
+
+    else:
+        print("False")
